@@ -17,6 +17,12 @@ phonecatApp.controller('PhoneListController', function PhoneListController($scop
             snippet: 'The Next, Next Generation tablet.'
         }
     ];
-
+angular.
+    module('myApp').
+    component('greetUser', {
+    template: 'Hello, {{$ctrl.user}}!',
+    controller: function GreetUserController() {    this.user = 'world'; }
+ } );
+<body>  <greet-user></greet-user>  </body>
 
 });
